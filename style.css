@@ -65,3 +65,37 @@ header {
   flex: 1;
   flex-wrap: wrap;
 }
+
+.hero-text h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.hero-text p,
+button {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero-logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.quote {
+  background-color: #e5e7eb;
+}
+
+button {
+  border-radius: 5px;
+  padding: 8px;
+  background-color: #3882f6;
+  border: none;
+}
