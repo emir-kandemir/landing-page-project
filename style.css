@@ -19,6 +19,7 @@ body {
     sans-serif;
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
 }
 
 ul {
@@ -135,4 +136,27 @@ a {
   font-size: 36px;
   color: #1f2937;
   font-weight: 900;
+}
+
+.section-3 {
+  padding: 10px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #e5e7eb;
+}
+
+.quote p {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+  padding-top: 25px;
+}
+
+.writer p {
+  display: flex;
+  padding-top: 25px;
+  justify-content: flex-end;
+  font-weight: bold;
 }
